@@ -1,0 +1,10 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "chris",
+    "password": "1",
+    "database": "nest_blog",
+    "entities": [],
+    "synchronize": true
+}

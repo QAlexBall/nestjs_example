@@ -1,0 +1,15 @@
+import {TypeOrmModule} from '@nestjs/typeorm'
+import { User } from './models/user.entity'
+
+const ORMModule = TypeOrmModule.forRoot({
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "chris",
+    "password": "1",
+    "database": "nest_blog",
+    "entities": [User],
+    "synchronize": true
+})
+
+export { ORMModule }
